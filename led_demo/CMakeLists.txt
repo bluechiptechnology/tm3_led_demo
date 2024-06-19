@@ -1,0 +1,18 @@
+SET(SOURCES screens/ui_ScreenPlay.c
+    screens/ui_ScreenSetup.c
+    ui.c
+    components/ui_comp_hook.c
+    ui_helpers.c
+    ui_events.c
+    images/ui_img_app_bg_png.c
+    images/ui_img_color_bar_png.c
+    images/ui_img_btn_play_inact_png.c
+    images/ui_img_btn_play_act_png.c
+    images/ui_img_frame_left_png.c
+    images/ui_img_frame_right_png.c
+    images/ui_img_menu_play_on_png.c
+    images/ui_img_btn_main_off_png.c
+    images/ui_img_btn_main_on_png.c
+    images/ui_img_menu_setup_on_png.c)
+
+add_library(ui ${SOURCES})
